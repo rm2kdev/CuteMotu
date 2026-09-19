@@ -20,7 +20,7 @@
 > Read the [full experimental-use, warranty and liability notice](DISCLAIMER.md). Statutory rights and liabilities that cannot legally be excluded remain unaffected.
 
 > [!NOTE]
-> **Significant AI use:** OpenAI Codex was used extensively in creating this project, including production driver and app code, signal-analysis tools, debugging, automated tests, documentation and release tooling.
+> **Significant AI use:** OpenAI Codex was used extensively in creating this project, including production driver and app code, signal-analysis tools, debugging, automated tests, documentation and release tooling. Read the [AI-use disclosure](#ai-use-disclosure).
 
 <p align="center"><a href="https://github.com/rm2kdev/CuteMotu/releases/tag/v0.3.0">Download the preview</a> · <a href="docs/INSTALL.md">Installation</a> · <a href="#explore-the-mixer">Mixer gallery</a> · <a href="#six-ways-to-see-your-sound">The instruments</a> · <a href="docs/RELEASE-0.3.0.md">Release notes</a></p>
 
@@ -177,6 +177,10 @@ flowchart LR
 ```
 
 The service owns USB transport. The HAL publishes the audio device. Bounded shared-memory rings keep UI work and synchronous control calls out of audio callbacks. Cute Mix controls the device’s hardware DSP and computes its analysis displays on the Mac. [Architecture and development](docs/DEVELOPMENT.md) · [Protocol notes](docs/PROTOCOL.md).
+
+## AI-use disclosure
+
+**CuteMotu was developed with significant AI assistance from OpenAI Codex.** Substantial portions of the implementation were generated or revised with AI assistance, including the USB audio service, Core Audio HAL, SwiftUI mixer, signal-analysis instruments, tests, build and installation scripts, documentation and release tooling. AI also assisted with architecture, protocol investigation and debugging.
 
 ## Buy me a coffee
 

@@ -10,7 +10,7 @@
 > Read the [full experimental-use, warranty and liability notice](../DISCLAIMER.md). Statutory rights and liabilities that cannot legally be excluded remain unaffected.
 
 > [!NOTE]
-> **Significant AI use:** OpenAI Codex was used extensively in creating this project, including production driver and app code, signal-analysis tools, debugging, automated tests, documentation and release tooling.
+> **Significant AI use:** OpenAI Codex was used extensively in creating this project, including production driver and app code, signal-analysis tools, debugging, automated tests, documentation and release tooling. Read the [AI-use disclosure](../README.md#ai-use-disclosure).
 
 **Experimental developer preview · Apple silicon · MOTU 828x USB**
 
