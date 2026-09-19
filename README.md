@@ -18,9 +18,9 @@
 >
 > Read the [full experimental-use, warranty and liability notice](DISCLAIMER.md). Statutory rights and liabilities that cannot legally be excluded remain unaffected.
 
-<p align="center"><a href="https://github.com/rm2kdev/CuteMotu/releases/tag/v0.3.0">Download the preview</a> · <a href="docs/INSTALL.md">Installation</a> · <a href="#six-ways-to-see-your-sound">The instruments</a> · <a href="docs/RELEASE-0.3.0.md">Release notes</a></p>
+<p align="center"><a href="https://github.com/rm2kdev/CuteMotu/releases/tag/v0.3.0">Download the preview</a> · <a href="docs/INSTALL.md">Installation</a> · <a href="#explore-the-mixer">Mixer gallery</a> · <a href="#six-ways-to-see-your-sound">The instruments</a> · <a href="docs/RELEASE-0.3.0.md">Release notes</a></p>
 
-![Cute Mix connected to a MOTU 828x, showing hardware input controls and eight monitor mixes](docs/images/mixer.png)
+![Cute Mix connected to a MOTU 828x, showing hardware input controls and eight monitor mixes](docs/images/mixer.jpg)
 
 ## A good interface deserves a longer life
 
@@ -40,6 +40,58 @@ This is an independent replacement project, not an announcement that every MOTU 
 - **Take your time.** Adjustable chart averaging and hold, millisecond time bases, and Freeze make fast signals easier to read.
 - **Keep audio local.** Analysis happens on your Mac. The analyzer does not record or upload audio.
 
+## Explore the mixer
+
+From the input bank to the Main L/R output, Cute Mix exposes the 828x’s hardware controls in a native Mac interface. These screenshots show the connected interface at 48 kHz; enabled and bypassed effects reflect its actual settings.
+
+<table>
+<tr>
+<td width="50%"><img src="docs/images/inputs.jpg" alt="Cute Mix input bank with trim, phase, EQ, dynamics and reverb sends"><br><b>Inputs.</b> Channel trims, polarity, processing shortcuts and reverb sends, with filters for analog, S/PDIF and ADAT banks.</td>
+<td width="50%"><img src="docs/images/outputs.jpg" alt="Cute Mix output bank with active Main L/R meters and hardware processing"><br><b>Outputs.</b> Stereo output meters, EQ and dynamics, plus independent reverb sends and returns.</td>
+</tr>
+<tr>
+<td><img src="docs/images/output-equalizer.jpg" alt="Main L/R seven-band hardware equalizer with draggable points and band controls"><br><b>Seven-band EQ.</b> A response preview, draggable frequency/gain points, filter shapes, bandwidth and per-band bypass.</td>
+<td><img src="docs/images/dynamics.jpg" alt="Hardware compressor and optical Leveler controls with gain-reduction meters"><br><b>Compressor &amp; Leveler.</b> Threshold, ratio, attack, release and makeup controls alongside hardware gain-reduction meters.</td>
+</tr>
+<tr>
+<td><img src="docs/images/reverb.jpg" alt="Hardware reverb with output send and return routing and multiband decay preview"><br><b>Reverb.</b> Send/return routing and an illustrative envelope preview for the hardware’s low, mid and high decay times.</td>
+<td><img src="docs/images/monitor-mix.jpg" alt="Main L/R direct-monitor mix showing channel faders, pan, mute, solo and output destination"><br><b>Direct monitor mixes.</b> Eight stereo buses with channel faders, pan, mute/solo, destination selection and reverb levels.</td>
+</tr>
+</table>
+
+<details>
+<summary><b>More mixer screenshots: channel settings, reverb controls, routing and device setup</b></summary>
+
+### Channel settings
+
+Name inputs locally, pair channels, select L/R or Mid/Side, adjust stereo width and set the reverb send. Controls are enabled according to the selected channel’s hardware capabilities.
+
+![Input channel settings with stereo pairing, polarity, trim, width and reverb controls](docs/images/channel-settings.jpg)
+
+### Room and multiband decay
+
+Set room shape, size, stereo width, early reflections, pre-delay, decay and the high-frequency shelf. Low/mid/high decay ratios and crossover frequencies shape the reverb tail.
+
+![Reverb room, timing, high-frequency shelf and multiband decay controls](docs/images/reverb-controls.jpg)
+
+### Talkback, listenback and stereo return
+
+Choose talkback/listenback sources and levels, and set **Return to computer** to the output you want to inspect. The screenshot shows **Main L/R**, which feeds the analyzer’s Stereo Return pair.
+
+![Overview with eight monitor mixes, input activity and expanded Talkback and routing controls](docs/images/routing.jpg)
+
+### Device and macOS playback
+
+See the active clock, optical modes, sample rate and channel counts. Optional macOS volume control applies to computer playback on Main L/R; the routing reference explains the Core Audio output order. Sample-rate reliability is documented in [Where it stands](#where-it-stands).
+
+![Device settings showing 48 kHz, internal clock, ADAT optical modes and macOS volume control](docs/images/device.jpg)
+
+</details>
+
+**Presets and workspace:** the header’s **Presets** menu saves and loads mixer/effects settings. **Customize layout** adjusts sidebar and channel-strip widths, footer height and the overview grid. Panel dividers can also be dragged to resize.
+
+Click any screenshot to open it at full size. EQ curves and reverb envelopes are visual previews of the settings, not measured hardware responses.
+
 ## Six ways to see your sound
 
 | Instrument | What it gives you |
@@ -53,20 +105,20 @@ This is an independent replacement project, not an announcement that every MOTU 
 
 <table>
 <tr>
-<td width="50%"><img src="docs/images/fft.png" alt="Live stereo FFT with averaging and peak hold"><br><b>Frequency, in detail.</b> Stereo spectrum with adjustable averaging and hold.</td>
-<td width="50%"><img src="docs/images/xy.png" alt="Live stereo X-Y density plot"><br><b>The shape of stereo.</b> See width, correlation and polarity.</td>
+<td width="50%"><img src="docs/images/fft.jpg" alt="Live stereo FFT with averaging and peak hold"><br><b>Frequency, in detail.</b> Stereo spectrum with adjustable averaging and hold.</td>
+<td width="50%"><img src="docs/images/xy.jpg" alt="Live stereo X-Y density plot"><br><b>The shape of stereo.</b> See width, correlation and polarity.</td>
 </tr>
 <tr>
-<td><img src="docs/images/scope.png" alt="Live stereo oscilloscope with a 20 millisecond window"><br><b>Down to the waveform.</b> Triggered traces with a millisecond time base.</td>
-<td><img src="docs/images/meters.png" alt="Live peak RMS and LUFS metering"><br><b>Level meets loudness.</b> Peak, RMS and three LUFS measurements together.</td>
+<td><img src="docs/images/scope.jpg" alt="Live stereo oscilloscope with a 20 millisecond window"><br><b>Down to the waveform.</b> Triggered traces with a millisecond time base.</td>
+<td><img src="docs/images/meters.jpg" alt="Live peak RMS and LUFS metering"><br><b>Level meets loudness.</b> Peak, RMS and three LUFS measurements together.</td>
 </tr>
 </table>
 
 <details>
 <summary><b>More screenshots: phase and tuner</b></summary>
 
-![Live rectangular phase analysis](docs/images/phase.png)
-![Tuner displaying a generated test tone](docs/images/tuner.png)
+![Live rectangular phase analysis](docs/images/phase.jpg)
+![Tuner displaying a generated test tone](docs/images/tuner.jpg)
 
 </details>
 
