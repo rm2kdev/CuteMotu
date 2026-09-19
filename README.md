@@ -4,6 +4,7 @@
   <a href="https://github.com/rm2kdev/CuteMotu/releases"><img alt="Experimental release" src="https://img.shields.io/badge/release-v0.3.0_preview-54c9b5?style=flat-square"></a>
   <img alt="Apple silicon native" src="https://img.shields.io/badge/Apple_silicon-native_arm64-549ed2?style=flat-square">
   <img alt="MOTU 828x over USB" src="https://img.shields.io/badge/MOTU_828x-USB-9294a7?style=flat-square">
+  <a href="https://ko-fi.com/rm2kdev"><img alt="Buy me a coffee on Ko-fi" src="https://img.shields.io/badge/Ko--fi-Buy_me_a_coffee-ff5f5f?style=flat-square"></a>
   <a href="LICENSE"><img alt="GPL version 3" src="https://img.shields.io/badge/license-GPL--3.0-9294a7?style=flat-square"></a>
 </p>
 
@@ -176,6 +177,10 @@ flowchart LR
 ```
 
 The service owns USB transport. The HAL publishes the audio device. Bounded shared-memory rings keep UI work and synchronous control calls out of audio callbacks. Cute Mix controls the device’s hardware DSP and computes its analysis displays on the Mac. [Architecture and development](docs/DEVELOPMENT.md) · [Protocol notes](docs/PROTOCOL.md).
+
+## Buy me a coffee
+
+If this project saved you a few thousand on a new interface, [buy me a coffee on Ko-fi](https://ko-fi.com/rm2kdev). ☕
 
 ## Help keep the 828x useful
 
