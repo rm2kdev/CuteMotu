@@ -1,0 +1,342 @@
+{
+  "capture_date": "2026-09-18",
+  "macos": "26.5.1",
+  "architecture": "arm64",
+  "usb_vendor": "0x07fd",
+  "usb_product": "0x0002",
+  "usb_product_string": "828 TBT",
+  "device_class": "0xff",
+  "usb_speed_mbps": 480,
+  "configuration": 1,
+  "active_alternate_at_inspection": 1,
+  "configuration_descriptor_hex": "0902d00001010040000904000002ff04ff0007050103000104070582030001040904000105ff04ff00070501030001040705820300010407050301c0030107058401c00301070585030400010904000205ff04ff00070501030001040705820300010407050301000b0107058401c00301070585030400010904000305ff04ff00070501030001040705820300010407050301c0030107058401c00b01070585030400010904000405ff04ff00070501030001040705820300010407050301000b0107058401c00b0107058503040001",
+  "alternates": [
+    {
+      "interface": 0,
+      "alternate": 0,
+      "declared_endpoints": 2,
+      "class": 255,
+      "subclass": 4,
+      "protocol": 255,
+      "endpoints": [
+        {
+          "address": "0x01",
+          "direction": "OUT",
+          "transfer": "interrupt",
+          "attributes": 3,
+          "wMaxPacketSize": 256,
+          "bytes_per_transaction": 256,
+          "transactions_per_service_interval": 1,
+          "max_bytes_per_service_interval": 256,
+          "bInterval": 4,
+          "service_interval_microseconds": 1000
+        },
+        {
+          "address": "0x82",
+          "direction": "IN",
+          "transfer": "interrupt",
+          "attributes": 3,
+          "wMaxPacketSize": 256,
+          "bytes_per_transaction": 256,
+          "transactions_per_service_interval": 1,
+          "max_bytes_per_service_interval": 256,
+          "bInterval": 4,
+          "service_interval_microseconds": 1000
+        }
+      ]
+    },
+    {
+      "interface": 0,
+      "alternate": 1,
+      "declared_endpoints": 5,
+      "class": 255,
+      "subclass": 4,
+      "protocol": 255,
+      "endpoints": [
+        {
+          "address": "0x01",
+          "direction": "OUT",
+          "transfer": "interrupt",
+          "attributes": 3,
+          "wMaxPacketSize": 256,
+          "bytes_per_transaction": 256,
+          "transactions_per_service_interval": 1,
+          "max_bytes_per_service_interval": 256,
+          "bInterval": 4,
+          "service_interval_microseconds": 1000
+        },
+        {
+          "address": "0x82",
+          "direction": "IN",
+          "transfer": "interrupt",
+          "attributes": 3,
+          "wMaxPacketSize": 256,
+          "bytes_per_transaction": 256,
+          "transactions_per_service_interval": 1,
+          "max_bytes_per_service_interval": 256,
+          "bInterval": 4,
+          "service_interval_microseconds": 1000
+        },
+        {
+          "address": "0x03",
+          "direction": "OUT",
+          "transfer": "isochronous",
+          "attributes": 1,
+          "wMaxPacketSize": 960,
+          "bytes_per_transaction": 960,
+          "transactions_per_service_interval": 1,
+          "max_bytes_per_service_interval": 960,
+          "bInterval": 1,
+          "service_interval_microseconds": 125
+        },
+        {
+          "address": "0x84",
+          "direction": "IN",
+          "transfer": "isochronous",
+          "attributes": 1,
+          "wMaxPacketSize": 960,
+          "bytes_per_transaction": 960,
+          "transactions_per_service_interval": 1,
+          "max_bytes_per_service_interval": 960,
+          "bInterval": 1,
+          "service_interval_microseconds": 125
+        },
+        {
+          "address": "0x85",
+          "direction": "IN",
+          "transfer": "interrupt",
+          "attributes": 3,
+          "wMaxPacketSize": 4,
+          "bytes_per_transaction": 4,
+          "transactions_per_service_interval": 1,
+          "max_bytes_per_service_interval": 4,
+          "bInterval": 1,
+          "service_interval_microseconds": 125
+        }
+      ]
+    },
+    {
+      "interface": 0,
+      "alternate": 2,
+      "declared_endpoints": 5,
+      "class": 255,
+      "subclass": 4,
+      "protocol": 255,
+      "endpoints": [
+        {
+          "address": "0x01",
+          "direction": "OUT",
+          "transfer": "interrupt",
+          "attributes": 3,
+          "wMaxPacketSize": 256,
+          "bytes_per_transaction": 256,
+          "transactions_per_service_interval": 1,
+          "max_bytes_per_service_interval": 256,
+          "bInterval": 4,
+          "service_interval_microseconds": 1000
+        },
+        {
+          "address": "0x82",
+          "direction": "IN",
+          "transfer": "interrupt",
+          "attributes": 3,
+          "wMaxPacketSize": 256,
+          "bytes_per_transaction": 256,
+          "transactions_per_service_interval": 1,
+          "max_bytes_per_service_interval": 256,
+          "bInterval": 4,
+          "service_interval_microseconds": 1000
+        },
+        {
+          "address": "0x03",
+          "direction": "OUT",
+          "transfer": "isochronous",
+          "attributes": 1,
+          "wMaxPacketSize": 2816,
+          "bytes_per_transaction": 768,
+          "transactions_per_service_interval": 2,
+          "max_bytes_per_service_interval": 1536,
+          "bInterval": 1,
+          "service_interval_microseconds": 125
+        },
+        {
+          "address": "0x84",
+          "direction": "IN",
+          "transfer": "isochronous",
+          "attributes": 1,
+          "wMaxPacketSize": 960,
+          "bytes_per_transaction": 960,
+          "transactions_per_service_interval": 1,
+          "max_bytes_per_service_interval": 960,
+          "bInterval": 1,
+          "service_interval_microseconds": 125
+        },
+        {
+          "address": "0x85",
+          "direction": "IN",
+          "transfer": "interrupt",
+          "attributes": 3,
+          "wMaxPacketSize": 4,
+          "bytes_per_transaction": 4,
+          "transactions_per_service_interval": 1,
+          "max_bytes_per_service_interval": 4,
+          "bInterval": 1,
+          "service_interval_microseconds": 125
+        }
+      ]
+    },
+    {
+      "interface": 0,
+      "alternate": 3,
+      "declared_endpoints": 5,
+      "class": 255,
+      "subclass": 4,
+      "protocol": 255,
+      "endpoints": [
+        {
+          "address": "0x01",
+          "direction": "OUT",
+          "transfer": "interrupt",
+          "attributes": 3,
+          "wMaxPacketSize": 256,
+          "bytes_per_transaction": 256,
+          "transactions_per_service_interval": 1,
+          "max_bytes_per_service_interval": 256,
+          "bInterval": 4,
+          "service_interval_microseconds": 1000
+        },
+        {
+          "address": "0x82",
+          "direction": "IN",
+          "transfer": "interrupt",
+          "attributes": 3,
+          "wMaxPacketSize": 256,
+          "bytes_per_transaction": 256,
+          "transactions_per_service_interval": 1,
+          "max_bytes_per_service_interval": 256,
+          "bInterval": 4,
+          "service_interval_microseconds": 1000
+        },
+        {
+          "address": "0x03",
+          "direction": "OUT",
+          "transfer": "isochronous",
+          "attributes": 1,
+          "wMaxPacketSize": 960,
+          "bytes_per_transaction": 960,
+          "transactions_per_service_interval": 1,
+          "max_bytes_per_service_interval": 960,
+          "bInterval": 1,
+          "service_interval_microseconds": 125
+        },
+        {
+          "address": "0x84",
+          "direction": "IN",
+          "transfer": "isochronous",
+          "attributes": 1,
+          "wMaxPacketSize": 3008,
+          "bytes_per_transaction": 960,
+          "transactions_per_service_interval": 2,
+          "max_bytes_per_service_interval": 1920,
+          "bInterval": 1,
+          "service_interval_microseconds": 125
+        },
+        {
+          "address": "0x85",
+          "direction": "IN",
+          "transfer": "interrupt",
+          "attributes": 3,
+          "wMaxPacketSize": 4,
+          "bytes_per_transaction": 4,
+          "transactions_per_service_interval": 1,
+          "max_bytes_per_service_interval": 4,
+          "bInterval": 1,
+          "service_interval_microseconds": 125
+        }
+      ]
+    },
+    {
+      "interface": 0,
+      "alternate": 4,
+      "declared_endpoints": 5,
+      "class": 255,
+      "subclass": 4,
+      "protocol": 255,
+      "endpoints": [
+        {
+          "address": "0x01",
+          "direction": "OUT",
+          "transfer": "interrupt",
+          "attributes": 3,
+          "wMaxPacketSize": 256,
+          "bytes_per_transaction": 256,
+          "transactions_per_service_interval": 1,
+          "max_bytes_per_service_interval": 256,
+          "bInterval": 4,
+          "service_interval_microseconds": 1000
+        },
+        {
+          "address": "0x82",
+          "direction": "IN",
+          "transfer": "interrupt",
+          "attributes": 3,
+          "wMaxPacketSize": 256,
+          "bytes_per_transaction": 256,
+          "transactions_per_service_interval": 1,
+          "max_bytes_per_service_interval": 256,
+          "bInterval": 4,
+          "service_interval_microseconds": 1000
+        },
+        {
+          "address": "0x03",
+          "direction": "OUT",
+          "transfer": "isochronous",
+          "attributes": 1,
+          "wMaxPacketSize": 2816,
+          "bytes_per_transaction": 768,
+          "transactions_per_service_interval": 2,
+          "max_bytes_per_service_interval": 1536,
+          "bInterval": 1,
+          "service_interval_microseconds": 125
+        },
+        {
+          "address": "0x84",
+          "direction": "IN",
+          "transfer": "isochronous",
+          "attributes": 1,
+          "wMaxPacketSize": 3008,
+          "bytes_per_transaction": 960,
+          "transactions_per_service_interval": 2,
+          "max_bytes_per_service_interval": 1920,
+          "bInterval": 1,
+          "service_interval_microseconds": 125
+        },
+        {
+          "address": "0x85",
+          "direction": "IN",
+          "transfer": "interrupt",
+          "attributes": 3,
+          "wMaxPacketSize": 4,
+          "bytes_per_transaction": 4,
+          "transactions_per_service_interval": 1,
+          "max_bytes_per_service_interval": 4,
+          "bInterval": 1,
+          "service_interval_microseconds": 125
+        }
+      ]
+    }
+  ],
+  "core_audio": {
+    "name": "MOTU 828x",
+    "sample_rate": 48000,
+    "input_channels": 32,
+    "output_channels": 30,
+    "default_output": true
+  },
+  "limitations": [
+    "Descriptor and registry inspection only; no streaming or audio quality tests.",
+    "Core Audio channel counts do not establish USB packet channel layout.",
+    "USB product string does not establish physical cable transport.",
+    "Endpoint purpose and clock protocol require confirmation from traffic or implementation analysis."
+  ]
+}
