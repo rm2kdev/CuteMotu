@@ -18,6 +18,9 @@
 >
 > Read the [full experimental-use, warranty and liability notice](DISCLAIMER.md). Statutory rights and liabilities that cannot legally be excluded remain unaffected.
 
+> [!NOTE]
+> **Significant AI use:** OpenAI Codex was used extensively in creating this project, including production driver and app code, signal-analysis tools, debugging, automated tests, documentation and release tooling.
+
 <p align="center"><a href="https://github.com/rm2kdev/CuteMotu/releases/tag/v0.3.0">Download the preview</a> · <a href="docs/INSTALL.md">Installation</a> · <a href="#explore-the-mixer">Mixer gallery</a> · <a href="#six-ways-to-see-your-sound">The instruments</a> · <a href="docs/RELEASE-0.3.0.md">Release notes</a></p>
 
 ![Cute Mix connected to a MOTU 828x, showing hardware input controls and eight monitor mixes](docs/images/mixer.jpg)

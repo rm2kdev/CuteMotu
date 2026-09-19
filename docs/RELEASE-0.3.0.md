@@ -9,6 +9,9 @@
 >
 > Read the [full experimental-use, warranty and liability notice](../DISCLAIMER.md). Statutory rights and liabilities that cannot legally be excluded remain unaffected.
 
+> [!NOTE]
+> **Significant AI use:** OpenAI Codex was used extensively in creating this project, including production driver and app code, signal-analysis tools, debugging, automated tests, documentation and release tooling.
+
 **Experimental developer preview · Apple silicon · MOTU 828x USB**
 
 This first public release combines the USB audio service, Core Audio HAL and native Cute Mix app. Start at **48 kHz**. The package is ad-hoc signed and **not notarized**; it is intended for development and testing, with a local source-build path.
