@@ -1,5 +1,14 @@
 # CuteMotu v0.3.0 — Native audio, modern instruments
 
+> [!WARNING]
+> **Experimental software — use entirely at your own risk.**
+>
+> CuteMotu is provided **“AS IS,” without warranties of any kind**, to the maximum extent permitted by applicable law. It may cause unexpected audio, excessive output levels, crashes, data loss, hearing injury or damage to audio interfaces, computers, speakers, headphones and other equipment.
+>
+> **To the maximum extent permitted by applicable law, the authors, maintainers, contributors and copyright holders accept no liability or responsibility for any injury, damage, loss or costs arising from installation, use, modification or inability to use this software, including hardware repair or replacement costs.** You are responsible for safe testing, monitoring levels and backups.
+>
+> Read the [full experimental-use, warranty and liability notice](../DISCLAIMER.md). Statutory rights and liabilities that cannot legally be excluded remain unaffected.
+
 **Experimental developer preview · Apple silicon · MOTU 828x USB**
 
 This first public release combines the USB audio service, Core Audio HAL and native Cute Mix app. Start at **48 kHz**. The package is ad-hoc signed and **not notarized**; it is intended for development and testing, with a local source-build path.

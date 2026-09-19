@@ -9,6 +9,15 @@
 
 <p align="center"><b>A native Mac USB audio driver, hardware mixer and signal-analysis suite for the MOTU 828x.</b><br>Built to give a capable piece of studio hardware a future on Apple silicon.</p>
 
+> [!WARNING]
+> **Experimental software — use entirely at your own risk.**
+>
+> CuteMotu is provided **“AS IS,” without warranties of any kind**, to the maximum extent permitted by applicable law. It may cause unexpected audio, excessive output levels, crashes, data loss, hearing injury or damage to audio interfaces, computers, speakers, headphones and other equipment.
+>
+> **To the maximum extent permitted by applicable law, the authors, maintainers, contributors and copyright holders accept no liability or responsibility for any injury, damage, loss or costs arising from installation, use, modification or inability to use this software, including hardware repair or replacement costs.** You are responsible for safe testing, monitoring levels and backups.
+>
+> Read the [full experimental-use, warranty and liability notice](DISCLAIMER.md). Statutory rights and liabilities that cannot legally be excluded remain unaffected.
+
 <p align="center"><a href="https://github.com/rm2kdev/CuteMotu/releases/tag/v0.3.0">Download the preview</a> · <a href="docs/INSTALL.md">Installation</a> · <a href="#six-ways-to-see-your-sound">The instruments</a> · <a href="docs/RELEASE-0.3.0.md">Release notes</a></p>
 
 ![Cute Mix connected to a MOTU 828x, showing hardware input controls and eight monitor mixes](docs/images/mixer.png)

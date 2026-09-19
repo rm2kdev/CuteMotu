@@ -1,5 +1,14 @@
 # Installing CuteMotu v0.3.0
 
+> [!WARNING]
+> **Experimental software — use entirely at your own risk.**
+>
+> CuteMotu is provided **“AS IS,” without warranties of any kind**, to the maximum extent permitted by applicable law. It may cause unexpected audio, excessive output levels, crashes, data loss, hearing injury or damage to audio interfaces, computers, speakers, headphones and other equipment.
+>
+> **To the maximum extent permitted by applicable law, the authors, maintainers, contributors and copyright holders accept no liability or responsibility for any injury, damage, loss or costs arising from installation, use, modification or inability to use this software, including hardware repair or replacement costs.** You are responsible for safe testing, monitoring levels and backups.
+>
+> Read the [full experimental-use, warranty and liability notice](../DISCLAIMER.md). Statutory rights and liabilities that cannot legally be excluded remain unaffected.
+
 This is an experimental Apple silicon USB driver for the MOTU 828x. Use **48 kHz**, internal clock and ADAT mode for both optical banks for the initial setup. It has not passed full studio acceptance. Thunderbolt is unsupported.
 
 ## Before installation
